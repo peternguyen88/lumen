@@ -21,6 +21,7 @@ class CreateQuestionSetTable extends Migration
             $table->string('set_description');
             $table->integer('number_of_questions');
             $table->string('pack_no');
+            $table->integer('order_in_pack')->default(0);
             $table->timestamps();
 
             $table->primary('set_no');

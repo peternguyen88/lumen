@@ -19,6 +19,7 @@ class CreateQuestionPackTable extends Migration
 
             $table->string('pack_no');
             $table->string('pack_description');
+            $table->integer('pack_oder')->default(0);
             $table->boolean('is_test_pack')->default(false);
             $table->boolean('is_practice_pack')->default(false);
             $table->timestamps();

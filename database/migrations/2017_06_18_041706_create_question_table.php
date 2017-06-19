@@ -21,6 +21,7 @@ class CreateQuestionTable extends Migration
             $table->string('pack_no');
             $table->string('set_no');
             $table->string('question_no');
+            $table->integer('question_order');
 
             $table->string('question_type');
             $table->longText('reading_passage')->nullable();
@@ -31,7 +32,9 @@ class CreateQuestionTable extends Migration
             $table->text('option_D');
             $table->text('option_E');
             $table->string('correct_answer');
-
+            $table->longText('solution')->nullable();
+            $table->string('categories')->nullable();
+            $table->string('difficulty')->nullable();
             $table->string('photo_url')->nullable();
             $table->timestamps();
 
