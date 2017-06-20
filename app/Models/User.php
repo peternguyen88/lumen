@@ -38,7 +38,7 @@ class User extends Model
     /**
      * The Database table used by the model
      */
-    protected $table = 'zeth_user';
+    protected $table = 'mt_user';
 
     /**
      * Primary Key

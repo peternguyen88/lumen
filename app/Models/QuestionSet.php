@@ -30,5 +30,5 @@ use Illuminate\Database\Eloquent\Model;
  */
 class QuestionSet extends Model
 {
-    protected $table = 'zeth_question_set';
+    protected $table = 'mt_question_set';
 }

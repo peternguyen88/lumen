@@ -39,6 +39,6 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Question extends Model
 {
-    protected $table = 'zeth_question';
+    protected $table = 'mt_question';
 
 }
